@@ -12,7 +12,7 @@
         android:layout_marginTop="80dp"
         android:layout_width="match_parent"
         android:layout_height="197dp"
-        android:text="doc2"
+        android:text="dok2"
         android:gravity="center"
         android:textSize="60dp"
         android:background="#8099CCFF"

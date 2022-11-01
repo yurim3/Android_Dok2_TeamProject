@@ -16,14 +16,14 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="26dp"
             android:layout_width="375dp"
             android:layout_height="140dp"
             android:layout_marginTop="100dp"
             android:background="#99FFFFFF">
 
             <TextView
-                android:layout_width="375dp"
+                android:layout_width="385dp"
                 android:layout_height="140dp"
                 android:text="Dok2"
                 android:textSize="50sp"
@@ -34,7 +34,7 @@
         </LinearLayout>
 
         <FrameLayout
-            android:layout_width="40dp"
+            android:layout_width="25dp"
             android:layout_height="566dp"
             android:background="@drawable/book_line">
         </FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertActivity"
+    android:layout_margin="15sp"
+    android:background="#4099CCFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWriteDate"
+        android:text="작성일"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:textColor="#3F51B5"/>
+
+    <EditText
+        android:layout_below="@id/txtWriteDate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="책을 읽고난 후 자신의 생각을 적어 보세요"
+        android:gravity="top"
+        android:padding="10sp"
+        android:textColorHint="#8E8E8E"
+        android:id="@+id/edtContent"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginRight="20sp"
+        android:backgroundTint="#7986CB"
+        android:src="@drawable/save_img"/>
+</RelativeLayout>

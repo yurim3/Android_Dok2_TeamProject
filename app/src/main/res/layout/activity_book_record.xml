@@ -5,36 +5,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".BookRecordActivity">
+    tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="나의 독서기록장"
-            android:textStyle="bold"
-            android:textSize="22sp" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나의 독서기록장"
+        android:textStyle="bold"
+        android:textSize="22sp" />
 
-        <Button
-            android:backgroundTint="@color/white"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="110dp"
-            android:layout_marginRight="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="새로 만들기"
-            android:textColor="@color/black"/>
+    <Button
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="새로 만들기"
+        android:textColor="@color/black"/>
+  </LinearLayout>
 
-    </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
 
     <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/list"/>
+        android:background="#ffffff"></ListView>
+  </LinearLayout>
 
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnwrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="#FFEB3B"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginRight="30sp"/>
+  </RelativeLayout>
 </LinearLayout>

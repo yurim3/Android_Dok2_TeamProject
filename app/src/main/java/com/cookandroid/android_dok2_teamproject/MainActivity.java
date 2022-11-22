@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         btnLoginLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, BookRecordActivity.class);
+                Intent intent = new Intent(MainActivity.this, WriteActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteActivity"
+    android:background="#4099CCFF">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/radius"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:hint="    책을 읽고난 후 자신의 생각을 적어 보세요"
+        android:textColorHint="#9A9A9A"
+        android:textSize="18sp"
+        android:gravity="start"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10sp"
+        android:background="@drawable/write_bg"
+        android:id="@+id/edtcontent"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginRight="20sp"
+        android:backgroundTint="#7986CB"
+        android:src="@drawable/save_img"/>
+</RelativeLayout>
